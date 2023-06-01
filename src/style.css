@@ -3,7 +3,7 @@ body {
   /* background-image: url("https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg"); */
   background-color: rgb(35, 35, 48);
   background-size: cover;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 30px;
   margin-left: 75px;
   margin-right: 75px;
@@ -57,3 +57,15 @@ header ul a {
 /* ul {
   display: flex;
 } */
+
+.website-image {
+  height: 400px;
+  width: 400px;
+
+  display: flex;
+}
+
+.website-image image {
+  border: solid white 5px;
+  border-radius: 7px;
+}
